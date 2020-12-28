@@ -9,9 +9,9 @@ script:
 - npm install
 - npm run pretest
 deploy:
-    provider: heroku
-    api_key:
+  provider: heroku
+  api_key:
     secure: mBlc+wmkuzESU64DrCu6YePpYDkjasqSoj4Pyhe3TDqnrDw+O8ytvEB2NuPS0mYMzVooEFgKXxFVlmW+2f66xhDTSycCQoBSBSQxVR9lP5vBCD6Lzh3w1EsK9YEUZv713waQicaffZG2QKocMyTzB9Mn2cEK8KRgHVnr6Bh/yiVGolieQOf7qbJSPbeTLEZvG6nCrEfbr3zK7B2cie04SHjAkvwDnrMYvoKpHEJSy31lDss4kAzPjMsf1AmUL4MFWCxefub2h16wOTKVFuJL347JGNUkcodEvdDMCa1A408D7YeQBhTznVojlFsKE85dGjQCaE6u+spXePIHDLQ8bGyCXAb8o4uslnF/2QP4XCDJjh+urCpFdUzdiZLCp1hT3KvzIkfi7YJA6+oV2cO+nQdZ/tnrOLh5gUiOezD6dGeH+W0br2GotwC8HZgwSPjnN2U2MqaeoVuh60gZ7QFZI1s1EWYtoFVXWFC6jdMlznWa7TQiPFCHD7XQroVL8DbMb3SYHKNywwOp/VY7z81NpGtTPjARgzU0DGLCbP3Q5jM3ibEnkSavdYcrF/GKD81DwCvf99kanf4QuayGhrO2WOA/RRiHq4APfrjFWEtkac0WCxW/wqnLEoj2woZKH9zE8iJ2s1QrMJQwcQx/+CKilmXQd8b8wFGkymmqbwxc/48=
-     app: automate-heorku3
+ app: automate-heorku
   on:
-    repo:kocsislaszlo1/cd
+    repo: kocsislaszlo1/cd
